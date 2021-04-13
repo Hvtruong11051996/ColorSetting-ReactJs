@@ -6,6 +6,28 @@
   height: 40vmin;
   pointer-events: none;
 }
+.container {
+  margin-top: 50px;
+}
+
+.resize_boder {
+  margin-top: 30px;
+}
+
+#content {
+  padding: 10px;
+  border: 3px solid red;
+}
+
+span {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.active {
+  border: 3px solid black;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
